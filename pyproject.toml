@@ -5,13 +5,16 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "site2filter"
 version = "0.0.1"
+dependencies = []
+requires-python = ">=3.12"
 authors = [
     { name="Steven Mordarski", email="steve@mordarski.net" },
     { name="Gabriel Mordarski", email="gabriel@mordarski.net" },
 ]
 description = "site2filter is a Python program that turns a list of websites into a filter for uBlock Origin."
 readme = "README.md"
-requires-python = ">=3.12"
+license = {file = "LICENSE"}
+keywords = ["filter"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
@@ -21,3 +24,6 @@ classifiers = [
 [project.urls]
 Homepage = "https://github.com/Mordarski-Networks/site2filter"
 Issues = "https://github.com/Mordarski-Networks/site2filter/issues"
+
+[project.scripts]
+site2filter = "site2filter:run_site2filter"
