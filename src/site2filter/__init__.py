@@ -5,6 +5,6 @@
 from site2filter import parse_arguments
 
 
-def run_site2filter():
-    """Run site2filter."""
+def site2filter():
+    """site2filter."""
     parse_arguments.main()

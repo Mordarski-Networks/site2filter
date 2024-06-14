@@ -26,4 +26,4 @@ Homepage = "https://github.com/Mordarski-Networks/site2filter"
 Issues = "https://github.com/Mordarski-Networks/site2filter/issues"
 
 [project.scripts]
-site2filter = "site2filter:run_site2filter"
+site2filter = "site2filter:site2filter"
